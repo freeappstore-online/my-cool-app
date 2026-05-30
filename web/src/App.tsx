@@ -1,7 +1,5 @@
-import { initApp } from '@freeappstore/sdk'
 import { Shell } from './components/Shell'
 
-const fas = initApp({ appId: 'my-cool-app' })
 
 export default function App() {
   return (
