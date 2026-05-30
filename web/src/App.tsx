@@ -1,5 +1,5 @@
 import { initApp } from '@freeappstore/sdk'
-import { Shell, BuildInfo } from '@freeappstore/sdk/ui'
+import { Shell } from './components/Shell'
 
 const fas = initApp({ appId: 'my-cool-app' })
 
@@ -12,7 +12,7 @@ export default function App() {
           <p className="mt-3 text-[var(--muted)]">Edit <code>web/src/App.tsx</code> to start building.</p>
         </div>
       </div>
-      <BuildInfo />
+      
     </Shell>
   )
 }
