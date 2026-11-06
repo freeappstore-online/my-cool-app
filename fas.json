@@ -1,0 +1,6 @@
+{
+  "appId": "my-cool-app",
+  "applicationRoot": "web",
+  "outputPath": "web/dist",
+  "buildCommand": "pnpm build"
+}
